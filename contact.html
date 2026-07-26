@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — The Numbers Lab</title>
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<a class="nl-skip-link" href="#main-content">Skip to content</a>
+
+<header class="nl-header">
+	<div class="nl-header-inner">
+		<a class="nl-logo" href="index.html" aria-label="The Numbers Lab — Home">
+			<span class="nl-header-logo-frame">
+				<img class="nl-header-logo" src="assets/images/brand-logo-light.png" alt="The Numbers Lab — Your Finance Team, Reimagined">
+			</span>
+		</a>
+		<nav class="nl-nav" aria-label="Primary">
+			<ul class="nl-nav-list">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<a class="nl-btn nl-btn-solid nl-header-cta" href="contact.html">Get A Quote</a>
+		<button class="nl-nav-toggle" type="button" aria-expanded="false" aria-controls="nl-mobile-nav">
+			<span></span><span></span><span></span>
+			<span class="screen-reader-text">Menu</span>
+		</button>
+	</div>
+	<div class="nl-mobile-nav" id="nl-mobile-nav" hidden>
+		<ul class="nl-mobile-nav-list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		<a class="nl-btn nl-btn-solid" href="contact.html">Get A Quote</a>
+	</div>
+</header>
+
+<main id="main-content">
+
+	<section class="nl-page-hero nl-page-hero-contact">
+		<div class="nl-container nl-page-hero-inner nl-page-hero-right">
+			<div class="nl-page-hero-card">
+				<p class="nl-eyebrow nl-eyebrow-invert">Contact</p>
+				<h1 class="nl-h1">Say hello.</h1>
+				<p class="nl-lede-invert">Ready to bring executive-level financial leadership into your business? Tell us a bit about where you're at, and we'll take it from there.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="nl-section nl-section-paper">
+		<div class="nl-container nl-contact-grid">
+
+			<div class="nl-content-card">
+				<div id="nl-demo-notice" class="nl-form-notice nl-form-notice-success" style="display:none;">Thanks — your message is on its way. We'll be in touch shortly.</div>
+
+				<form class="nl-contact-form" onsubmit="event.preventDefault(); document.getElementById('nl-demo-notice').style.display='block'; this.reset();">
+					<input type="text" name="nl_website" value="" autocomplete="off" tabindex="-1" class="nl-honeypot" aria-hidden="true">
+					<label for="nl_name">Name</label>
+					<input type="text" id="nl_name" name="nl_name" required>
+					<label for="nl_company">Company</label>
+					<input type="text" id="nl_company" name="nl_company">
+					<label for="nl_email">Email</label>
+					<input type="email" id="nl_email" name="nl_email" required>
+					<label for="nl_phone">Phone</label>
+					<input type="tel" id="nl_phone" name="nl_phone">
+					<label for="nl_message">What do you need help with?</label>
+					<textarea id="nl_message" name="nl_message" rows="5" required></textarea>
+					<button type="submit" class="nl-btn nl-btn-solid-navy">Send Message</button>
+				</form>
+				<p style="font-size:.78rem;color:var(--slate);margin-top:14px;">(Preview only — on the live WordPress site this sends a real email.)</p>
+			</div>
+
+			<div class="nl-content-card nl-contact-info">
+				<p class="nl-eyebrow">Direct</p>
+				<p><a href="mailto:Hello@thenumberslab.co.za">Hello@thenumberslab.co.za</a></p>
+				<p><a href="tel:+27823361479">082 336 1479</a></p>
+			</div>
+
+		</div>
+	</section>
+
+</main>
+
+<footer class="nl-footer">
+	<div class="nl-footer-inner">
+		<div class="nl-footer-brand">
+			<span class="nl-logo nl-logo-invert" aria-label="The Numbers Lab">
+				<img class="nl-footer-brand-image" src="assets/images/logo-navy.png" alt="The Numbers Lab">
+			</span>
+			<p class="nl-footer-tagline">Your finance team. Reimagined.</p>
+		</div>
+		<nav class="nl-footer-nav" aria-label="Footer">
+			<ul class="nl-footer-nav-list">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="nl-footer-contact">
+			<a href="mailto:Hello@thenumberslab.co.za">Hello@thenumberslab.co.za</a>
+			<a href="tel:+27823361479">082 336 1479</a>
+			<p class="nl-footer-tools">Working in Xero &middot; Hubdoc &middot; Dext &middot; SimplePay</p>
+		</div>
+	</div>
+	<div class="nl-footer-bottom">
+		<p>&copy; 2026 The Numbers Lab. All rights reserved.</p>
+	</div>
+</footer>
+
+<script src="assets/js/navigation.js"></script>
+</body>
+</html>
